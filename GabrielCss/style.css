@@ -1,0 +1,159 @@
+body {
+    font-family: Candara, sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    background: linear-gradient(to right, #ceeafb, #7bcdef);
+}
+
+.container {
+    border: 1px #98aebb solid;
+    border-radius: 5px;
+    width: 900px;
+    height: 645px;
+    background: linear-gradient(#ffffff, #dcdcdc);
+    margin: 45px auto;
+}
+
+.top-menu ul {
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    background: linear-gradient(#ffd200, #fcd730);
+    height: 60px;
+    padding: 15px 0;
+
+}
+
+.top-menu li {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0;
+    width: 124px;
+    height: 30px;
+    line-height: 30px;
+    border-right: 1px gray solid;
+    text-align: center;
+
+}
+
+.top-menu li a {
+
+    font-size: 18px;
+    letter-spacing: -1px;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.top-menu li a:hover {
+    text-decoration: underline;
+}
+
+.top-menu li a:visited {
+    opacity: 1;
+    color: #df360c;
+    text-decoration: underline;ta
+}
+
+.top-menu li a.disabled {
+    opacity: 0.2;
+}
+
+.top-menu li:last-child {
+    border-right: none;
+}
+
+.top-menu a {
+    color: black;
+}
+
+.form {
+    padding: 5px;
+}
+
+.form table {
+
+    table-layout: fixed;
+
+    border-collapse: collapse;
+
+   color: #828282;
+}
+
+.form.scroll {
+    display: block;
+    height: 160px;
+    overflow-y: auto;
+}
+
+
+.form th {
+    border-bottom: 1px lightgray solid;
+    font-size: 10px;
+    padding: 5px;
+
+
+}
+
+.form td {
+    padding: 5px;
+}
+
+
+.validator, .letter, .rest {
+    text-align: center;
+}
+.address, .needed, .comment {
+    text-align: left;
+}
+td.validator  {
+    font-size: 13px;
+    width: 70px;
+}
+
+td.letter {
+    width: 35px;
+}
+
+td.address {
+    display: block;
+    width: 210px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    direction: rtl;
+    font-size: 10px;
+}
+
+td.rest {
+    font-size: 14px;
+    font-weight: bold;
+    width: 70px;
+}
+
+td.needed {
+    text-align: left;
+    width: 250px;
+}
+
+td.needed input {
+    font-size: 10px;
+    width: 30px;
+}
+
+td.comment {
+    width: 210px;
+}
+
+td.comment input {
+    width: 200px;
+}
+
+.form tr {
+    line-height: 30px;
+    border: 1px black solid;
+}
+
+
+
+
+

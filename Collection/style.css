@@ -1,0 +1,29 @@
+input {
+    width: 20px;
+}
+
+div.task {
+    width: 800px;
+    border: 1px black solid;
+}
+
+input {
+    width: 100px;
+}
+
+p.start {
+    text-decoration: underline;
+
+}
+
+em {
+    vertical-align: top;
+}
+
+em.output {
+    display: inline-block;
+
+    word-wrap: break-word;
+    width: 600px;
+
+}
