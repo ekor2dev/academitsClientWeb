@@ -11,8 +11,16 @@ $(document).ready(function () {
         var descr = b * b - 4 * a * c;
         var x1 = (-b + Math.sqrt(descr)) / 2 / a;
         var x2 = (-b - Math.sqrt(descr)) / 2 / a;
-        $("#x1").text(x1.toFixed(2));
-        $("#x2").text(x2.toFixed(2));
+
+        if (isNaN(x1) || isNaN(x2)) {
+            $(".answer em").text("");
+            $("#warning").text("Дескриминант меньше нуля. Корней нет (");
+        }
+        else {
+            $("#x1").text(x1.toFixed(2));
+            $("#x2").text(x2.toFixed(2));
+            $("#warning").text("")
+        }
     }
 
 });

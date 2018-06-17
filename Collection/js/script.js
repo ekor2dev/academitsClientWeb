@@ -10,7 +10,7 @@ $(document).ready(function () {
     function sortAndFilter() {
         var size = 15;
         var initial = Array(size).fill(5).map(function () {
-            return Number.parseInt((Math.random() * 100));
+            return parseInt((Math.random() * 100));
         });
 
         $("#initialTask1").text(initial);
